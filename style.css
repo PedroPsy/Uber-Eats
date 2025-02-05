@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 900px;
+    
+}
+.botao{
+    width: 100%;
+            padding: 10px 20px;
+            background-color: #fafafa;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+}
+.icone-usuario {
+    width: 30px; /* Tamanho do ícone */
+    height: 30px; /* Tamanho do ícone */
+    align-items: center;/* Espaço entre o ícone e o texto */
+    display:inline;
+}
+
+.botao:hover{
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+.botao-container {
+    display: flex;
+    justify-content: space-between;
+}
+.cadBotton-container{
+    display: flex;
+    justify-content: space-between;
+}
+.cadBotton{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.cadBotton:hover{
+    background-color: #000000;
+}
+.botao3{
+    display: flexbox;
+    text-align: center;
+    width: 100%;
+    padding: 10px 5px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.container{
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    display: block;
+  }
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1{
+    text-align: center;
+    font-size:x-large;
+}
+
+a {
+    text-decoration: underline
+	
+}
+
+.logo a, .main-nav a {
+	color: #000000;
+	font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+}
+body{
+    display: flex;
+    
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform:none;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: col;
+    justify-content: space-between;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+    background-color: white;
+    border: 2px solid rgb(252, 255, 255);
+}
+
+#content {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    background-color: black;
+}
+
+
+
+aside {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+}   
